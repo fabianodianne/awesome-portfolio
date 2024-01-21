@@ -3,7 +3,7 @@ const Expertise = () => {
     return (
         <div className="flex flex-col h-full py-10 gap-4">
             
-            <p className="font-bold pb-4 md:text-3xl text-xl">
+            <p className="font-bold md:text-xl p-10 pb-2">
                 My passion lies in...
             </p>
 

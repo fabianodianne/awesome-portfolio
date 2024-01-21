@@ -11,6 +11,20 @@ body {
     background-image: radial-gradient(circle, #49344c, #44354d, #3e354e, #39364e, #34364d, #31354b, #2e3548, #2c3446, #2b3342, #2b313e, #2a303a, #2a2e36);
 }
 
+@media (min-width: 1200px) {
+    .view {
+        min-height: 88vh;
+    }
+}
+
+.sections {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
 .scrollbar::-webkit-scrollbar {
     display: none;
 }
@@ -65,16 +79,6 @@ body {
 .clicked {
     transform: scale(2);
     transition: transform 1s ease-in-out;
-}
-
-@media (min-width: 1280px) {
-    .view {
-        min-height: 88vh;
-    }
-}
-
-.home {
-    min-height: 88vh;
 }
 
 .zoom-in-box {
