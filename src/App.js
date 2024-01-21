@@ -23,7 +23,7 @@ function App() {
       {isLoading && <Loading />}
       
       {!isLoading && 
-        <div className='h-full scrollbar overflow-y-scroll overflow-x-hidden'>
+        <div className='sections h-full scrollbar overflow-y-scroll overflow-x-hidden'>
 
           <div className='w-full h-10 absolute top-0 backdrop-blur z-40'></div>
 
