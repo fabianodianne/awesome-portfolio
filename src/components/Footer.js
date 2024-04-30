@@ -17,9 +17,9 @@ const Footer = () => {
             </div>
 
             <div className="md:w-1/2 w-full flex md:justify-end justify-center md:gap-4 gap-4 pb-2">
-                <a href='https://www.instagram.com/yhianiee' target='_blank' className='hover:text-primary zoom'>
+                {/* <a href='https://www.instagram.com/yhianiee' target='_blank' className='hover:text-primary zoom'>
                     <InstagramIcon />
-                </a>
+                </a> */}
                 <a href='mailto:fabianodianne@gmail.com' target='_blank' className='hover:text-primary zoom'>
                     <EmailRoundedIcon />
                 </a>

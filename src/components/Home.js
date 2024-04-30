@@ -52,16 +52,42 @@ const Home = () => {
     }, []);
 
     return (
-        <div className='flex lg:flex-row flex-col justify-center py-20'>
+        <div className='flex lg:flex-row flex-col justify-center'>
 
             <div className='lg:w-2/3 lg:pr-48 gap-2 flex flex-col justify-end'>
+                <p className='xl:text-base text-sm font-medium px-6 lg:px-1'>
+                    Hey there! I'm
+                </p>
+
                 <p className='font-bold xl:text-6xl text-2xl'>D{dipslayText}
                     <span className='animate-pulse'>_</span>
                 </p>
 
                 <p className='xl:text-base text-sm font-medium px-6 lg:px-1'>
-                    Hey there, I'm a 
-                    <span className='font-bold'> software engineer </span>
+                    I'm a 
+
+                    <span className='font-bold'>
+                        <span className='hover:text-secondary'> s</span>
+                        <span className='hover:text-secondary'>o</span>
+                        <span className='hover:text-secondary'>f</span>
+                        <span className='hover:text-secondary'>t</span>
+                        <span className='hover:text-secondary'>w</span>
+                        <span className='hover:text-secondary'>a</span>
+                        <span className='hover:text-secondary'>r</span>
+                        <span className='hover:text-secondary'>e </span>
+                    </span>
+
+                    <span className='font-bold'>
+                        <span className='hover:text-secondary'> e</span>
+                        <span className='hover:text-secondary'>n</span>
+                        <span className='hover:text-secondary'>g</span>
+                        <span className='hover:text-secondary'>i</span>
+                        <span className='hover:text-secondary'>n</span>
+                        <span className='hover:text-secondary'>e</span>
+                        <span className='hover:text-secondary'>e</span>
+                        <span className='hover:text-secondary'>r </span>
+                    </span>
+
                      passionate about creating engaging websites, web apps, and mobile apps. Let's turn your ideas into innovative digital solutions!
                 </p>
 
@@ -71,9 +97,9 @@ const Home = () => {
                 </button>
 
                 <div className='flex gap-3'>
-                    <a href='https://www.instagram.com/yhianiee' target='_blank' className='hover:text-primary zoom'>
+                    {/* <a href='https://www.instagram.com/yhianiee' target='_blank' className='hover:text-primary zoom'>
                         <InstagramIcon />
-                    </a>
+                    </a> */}
                     <a href='mailto:fabianodianne@gmail.com' target='_blank' className='hover:text-primary zoom'>
                         <EmailRoundedIcon />
                     </a>

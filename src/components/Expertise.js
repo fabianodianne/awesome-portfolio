@@ -1,10 +1,10 @@
 
 const Expertise = () => {
     return (
-        <div className="flex flex-col h-full py-10 gap-4">
+        <div className="flex flex-col h-full py-10 gap-10">
             
-            <p className="font-bold md:text-xl p-10 pb-2">
-                My passion lies in...
+            <p className="font-bold md:text-xl px-10 ">
+                My expertise lies in...
             </p>
 
             <div className="grid lg:grid-cols-3 gap-4 xl:px-32 px-5">
@@ -37,7 +37,7 @@ const Expertise = () => {
 
             </div>
 
-            <div className='p-4 xl:mx-32 mx-5 mt-20 shadow hover:shadow-md rounded-xl flex flex-col bg-secondary/10'>
+            <div className='p-4 xl:mx-32 mx-5 shadow hover:shadow-md rounded-xl flex flex-col bg-secondary/10'>
                 <p className='font-black text-xl text-center mb-6'>Tech Stack</p>
             
 
